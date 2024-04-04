@@ -17,8 +17,6 @@ int main(void) {
     scanf("%d", &arr2[i]);
   }
    
-  printf("Arrays after swapping : \n");
-  
   for(i = 0; i < limit; i++) {
     for(j = 0; j < limit; j++) {
       if(i == j) {
@@ -28,6 +26,8 @@ int main(void) {
       }
     }
   }
+
+  printf("Arrays after swapping : \n");
 
   printf("Array 1 : ");
   for(i = 0; i < limit; i++) {
